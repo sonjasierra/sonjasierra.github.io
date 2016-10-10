@@ -20,19 +20,24 @@ p {
     font-family: 'Scope One', serif;
 }
 
-ul {
-	color: #FFF5CF;
+nav {
+	background-color: #FFF5CF;
 	padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
     padding-left: 50px;
 
 }
-li {
-	color: #FFF5CF;
+nav a {
+	color: #9f8c7a;
+	display: block;
 }
 img {
-	width: 700px;
+	width: 100%;
+}
+header img {
+	border-radius:50%;
+	width:200px;
 }
 .slogan {
 	font-style: italic;
