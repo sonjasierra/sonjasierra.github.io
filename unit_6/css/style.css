@@ -74,17 +74,38 @@ footer {
 	padding: 20px;
 }
 #house-training {
-	background-color: #FFE2B8;
-	border: 1px black solid;
-	padding: 20px;
+	background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
 }
 #basic-commands {
-	background-color: #FFE2B8;
-	border: 1px black solid;
-	padding: 20px;
+	background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
 }
 #behavioral-issues {
-	background-color: #FFE2B8;
-	border: 1px black solid;
-	padding: 20px;
+	background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
 }
+#left {
+	background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+#right {
+	background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
