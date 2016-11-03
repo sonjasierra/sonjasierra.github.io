@@ -1,10 +1,18 @@
 * {margin:0;padding:0;box-sizing:border-box;}
 body	{
 	background-color: #F8FFE8;
-	width: 700px;
 	border: 1px black solid;
+}
+main {
+	max-width: 1200px;
+	margin:auto;
+}
+section {
+	/* background-color: #FFB7CF; */
+	/* border: 1px black solid; */
 	padding: 20px;
-	margin: 30px auto 0;
+	width: 50%;
+	float: left;
 }
 h1,h2 {
 	text-transform: uppercase;
@@ -19,6 +27,9 @@ h1 {
 	display: inline-block;
 	border: 1px black solid;
 	padding: 20px;
+}
+hr {
+	clear:both;
 }
 header {
 	background-color: #FFED74;
@@ -73,20 +84,11 @@ footer {
 	border: 1px black solid;
 	padding: 20px;
 }
-#house-training {
-	background-color: #FFB7CF;
-    border: 1px black solid;
-    padding: 20px;
-}
+main>section:first-of-type {width: 100%;}
 #basic-commands {
-	background-color: #FFB7CF;
-    border: 1px black solid;
-    padding: 20px;
 }
 #behavioral-issues {
-	background-color: #FFB7CF;
-    border: 1px black solid;
-    padding: 20px;
+
 }
 #left {
 	background-color: #E582A2;
@@ -109,3 +111,4 @@ footer {
     content: " ";
     clear: both;
     height: 0;
+}
